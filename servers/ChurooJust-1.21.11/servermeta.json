@@ -1,0 +1,27 @@
+{
+  "$schema": "file:///C:/Users/phj08/Documents/ChurooData/schemas/ServerMetaSchema.schema.json",
+  "meta": {
+    "version": "1.0.0",
+    "name": "ChurooJust (Minecraft 1.21.11)",
+    "description": "ChurooJust Running Minecraft 1.21.11",
+    "icon": "https://i.imgur.com/your_icon_link.png",
+    "address": "churoo.kro.kr:25565",
+    "mainServer": true,
+    "autoconnect": true
+  },
+  "fabric": {
+    "version": "0.19.2"
+  },
+  "untrackedFiles": [
+    {
+      "appliesTo": ["files"],
+      "patterns": [
+        "config/**/*",
+        "shaderpacks/**/*",
+        "journeymap/**/*",
+        "*.txt",
+        "*.dat"
+      ]
+    }
+  ]
+}
